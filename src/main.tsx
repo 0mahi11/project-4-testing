@@ -4,7 +4,7 @@ import App from './App.tsx';
 import './index.css';
 
 // Set page title
-document.title = 'ProConnect - Connect with Professionals';
+document.title = 'Oryons - Connect & Collaborate';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

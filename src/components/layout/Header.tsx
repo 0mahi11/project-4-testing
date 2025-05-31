@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { useTheme } from '../../contexts/ThemeContext';
-import { Search, Menu, X, BellRing, MessageSquare, Settings, LogOut, Sun, Moon, User } from 'lucide-react';
+import { Search, Menu, X, BellRing, MessageSquare, Settings, LogOut, Sun, Moon } from 'lucide-react';
 
 const Header = () => {
   const { user, logout, isAuthenticated } = useAuth();
@@ -32,10 +32,12 @@ const Header = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <div className="w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center">
-                  <User className="h-5 w-5 text-white" />
-                </div>
-                <span className="text-xl font-bold text-gray-900 dark:text-white">ProConnect</span>
+                <img 
+                  src="https://cdn.hack.ngo/slackcdn/eae9ef874ba4c819750b92d4b2490851.png"
+                  alt="Oryons"
+                  className="h-8 w-8"
+                />
+                <span className="text-xl font-bold text-gray-900 dark:text-white">Oryons</span>
               </Link>
             </div>
             
