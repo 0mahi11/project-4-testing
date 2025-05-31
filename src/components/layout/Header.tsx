@@ -33,7 +33,7 @@ const Header = () => {
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="flex items-center space-x-2">
                 <img 
-                  src="https://cdn.hack.ngo/slackcdn/eae9ef874ba4c819750b92d4b2490851.png"
+                  src="https://cdn.hack.ngo/slackcdn/1206ba119597b42a72bbd351124d97c3.png"
                   alt="Oryons"
                   className="h-8 w-8"
                 />
